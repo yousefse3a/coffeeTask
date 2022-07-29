@@ -1,0 +1,15 @@
+.Landing {
+  background-image: url("../../assets/images/background.png");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: calc(100vh - 70px);
+  font-size: 60px;
+  font-weight: 700;
+  color: orange;
+}
+@media screen and (max-width: 480px) {
+    .Landing {
+      font-size: 34px;
+    }
+  }

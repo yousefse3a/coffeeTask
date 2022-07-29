@@ -1,0 +1,58 @@
+.InputContainer {
+  display: flex;
+  height: 40px;
+  border: 1px solid rgb(190, 186, 186);
+  background-color: white;
+  border-radius: 5px;
+}
+.Input {
+  flex: 8;
+  height: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 5px;
+}
+.Input:focus {
+  outline: none;
+}
+.btnsSarch {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: orange;
+}
+.btnLogin {
+  font-weight: 300;
+  color: orange;
+  padding: 10px 30px;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  font-weight: 500;
+}
+.btnLogin:hover {
+  cursor: pointer;
+  color: white;
+  background-color: orange;
+}
+.btnJoin {
+  font-weight: 300;
+  color: white;
+  padding: 10px 30px;
+  background-color: orange;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 5px;
+  font-weight: 500;
+}
+.btnJoin:hover {
+  cursor: pointer;
+  color: orange;
+  background-color: white;
+}

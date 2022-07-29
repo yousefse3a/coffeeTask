@@ -1,0 +1,33 @@
+.InputContainer {
+  display: flex;
+  height: 60px;
+  border: 1px solid rgb(190, 186, 186);
+  background-color: white;
+  border-radius: 5px;
+}
+.Input {
+  flex: 8;
+  height: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 5px;
+}
+.Input:focus {
+  outline: none;
+}
+.Btn {
+  height: 100%;
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: orange;
+  font-size: 20px;
+}
+.H2{
+  color: rgb(8, 29, 61);
+  font-size: 50px;
+  font-weight: 700;
+}

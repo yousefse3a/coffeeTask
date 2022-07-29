@@ -1,0 +1,55 @@
+.imgLogo {
+  position: relative;
+  z-index: 11;
+}
+.square {
+  background-color: rgb(216, 126, 8);
+  width: 100px;
+  height: 120px;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  transform: translate(-60%, -40%);
+}
+.circle {
+  background-color: orange;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  position: absolute;
+  top: 100%;
+  left: 0%;
+  transform: translate(-40%, -60%);
+}
+.heading {
+  width: 80%;
+  font-size: 50px;
+  font-weight: 700;
+  padding-left: 10px;
+  position: relative;
+  color: rgb(8, 29, 61);
+
+}
+@media screen and (max-width: 480px) {
+  .heading {
+    font-size: 34px;
+  }
+}
+.heading::before {
+  content: "";
+  position: absolute;
+  top: -20px;
+  left: 0;
+  width: 20%;
+  height: 5px;
+  background-color: rgb(216, 126, 8);
+}
+.heading::after {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  width: 80%;
+  height: 5px;
+  background-color: rgb(216, 126, 8);
+}
